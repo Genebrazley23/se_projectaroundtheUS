@@ -3,109 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Coffee Shop" />
-    <meta name="author" content="Eugene Brazley" />
-    <meta name="keywords" content="html,css" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <title>Around the U.S</title>
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" href="./favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Coffee Shop</title>
   </head>
-  <body>
-    <div class="page">
-      <header class="header">
-        <nav class="nav">
-          <div>
-            <img
-              class="nav__logo"
-              src="./images/logo_coffeeshop_dark.svg"
-              alt="inside Coffee shop"
-            />
+  <body class="page">
+    <div class="page__content">
+      <header class="header page__section">
+        <img src="./images/Vector.svg" alt="aroundlogo" class="header__logo" />
+      </header>
+      <main class="content">
+        <section class="profile page__section">
+          <img
+            src="./images/Avatar.jpg"
+            alt="Avatar logo"
+            class="profile__avater"
+          />
+          <div class="profile__info">
+            <h1 class="profile__title">Jacques Cousteau</h1>
+            <button type="button" class="profile__edit-button"></button>
+            <p class="profile__discription">Explorer</p>
           </div>
-          <ul class="nav__links">
-            <li class="nav__link"><a href="#" class="nav__link">Recipes</a></li>
-            <li class="nav__link">
-              <a href="#" class="nav__link">Book a table</a>
+          <button type="button" class="profile__add-button"></button>
+        </section>
+        <section class="cards page__section">
+          <ul class="cards__list page__section">
+            <li class="card">
+              <img
+                src="./images/yosemite-valley(1).jpg"
+                class="card__image"
+                alt="Yosemite"
+              />
+              <div class="card__discription">
+                <h2 class="card__name">Yosemite Valley</h2>
+                <button type="button" class="card__like-button"></button>
+              </div>
             </li>
-            <li class="nav__link"><a href="#" class="nav__link">Menu</a></li>
-            <li class="nav__link">
-              <a href="#" class="nav__link">Contacts</a>
+            <li class="card">
+              <img
+                src="./images/lake-louise.png"
+                class="card__image"
+                alt="lakelouise"
+              />
+              <div class="card__discription">
+                <h2 class="card__name">Lake Louise</h2>
+                <button type="button" class="card__like-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="./images/bald-mountains.png"
+                class="card__image"
+                alt="bald-mountains"
+              />
+              <div class="card__discription">
+                <h2 class="card__name">Bald Mountains</h2>
+                <button type="button" class="card__like-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src=".//images/latemar.png"
+                class="card__image"
+                alt="latemar"
+              />
+              <div class="card__discription">
+                <h2 class="card__name">Latemar</h2>
+                <button type="button" class="card__like-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="./images/vanoise-national-park.png"
+                class="card__image"
+                alt="vanoise-national-park"
+              />
+              <div class="card__discription">
+                <h2 class="card__name">Vanoise Nataionl Park</h2>
+                <button type="button" class="card__like-button"></button>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                src="./images/lago-di-braies.png"
+                class="card__image"
+                alt="lago-di-braies"
+              />
+              <div class="card__discription">
+                <h2 class="card__name">Lago Di Braies</h2>
+                <button type="button" class="card__like-button"></button>
+              </div>
             </li>
           </ul>
-        </nav>
-
-        <h1 class="header__title">
-          <span class="header__span-accent">Specialty coffee</span>
-          in the Triple Peaks Library
-        </h1>
-        <p class="header__description">
-          Welcome to our study zone! We've got the coffee to energize you and
-          the cozy vibes to help you get creative.
-        </p>
-        <img
-          src="./images/inside_coffee_shop.png"
-          alt="Illustration 'Inside the library"
-          class="header__image"
-        />
-        <div class="header__footer">
-          <div>
-            <p class="header__paragraph">Hours:</p>
-            <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
-            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
-          </div>
-          <p class="header__paragraph">
-            200 Success Avenue, The Town of Triple Peaks
-          </p>
-        </div>
-      </header>
-      <main class="content"></main>
-      <section class="recipes">
-        <h2 class="recipes__title">Recipes</h2>
-        <p class="recipes__subtitle">
-          Check out some recipes we've collected for your home-brewing
-          convenience:
-        </p>
-        <div class="recipes__videos">
-          <div>
-            <iframe
-              class="recipes__iframe"
-              src="https://www.youtube.com/embed/j6VlT_jUVPc?si=atHYf_zy3TD0PQn5"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <p class="recipes__video-caption">
-              <span>Aeropress recipe</span> ~5 min
-            </p>
-          </div>
-          <div>
-            <iframe
-              class="recipes__iframe"
-              src="https://www.youtube.com/embed/st571DYYTR8?si=QMcm0NCo5ALrh6VM"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <p class="recipes__video-caption">
-              <span>French press recipe</span>~15 min
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="reseravtion"></section>
-      <section class="menu"></section>
-      <section class="about"></section>
-      <footer class="footer"></footer>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__name">©2024 Around The U.S.</p>
+      </footer>
     </div>
   </body>
 </html>
