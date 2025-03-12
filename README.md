@@ -44,10 +44,11 @@ Git & GitHub: Version control and project hosting.
 
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
 
-## Link to project: https://genebrazley23.github.io/se_project_aroundtheus/
 
-## Demo:
-https://youtu.be/2-IDCokFdpI
+
+## Demo & Link to project::
+- https://youtu.be/hfpu5XswHmU
+-  https://genebrazley23.github.io/se_project_aroundtheus/
 
 ## Project checklist
 
