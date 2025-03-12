@@ -47,7 +47,7 @@ The way you'll do this at work is by exporting images directly from Figma — we
 ## Link to project: https://genebrazley23.github.io/se_project_aroundtheus/
 
 ## Demo:
-https://youtu.be/rloVKpChTqs
+https://youtu.be/2-IDCokFdpI
 
 ## Project checklist
 
